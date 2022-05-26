@@ -66,5 +66,9 @@ input[type="text"] {
   body {
     background: url(../images/IE6/windowxp-background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    
+
+
   }
 
