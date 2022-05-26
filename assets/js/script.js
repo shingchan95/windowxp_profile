@@ -12,6 +12,8 @@ var home_button = document.getElementById("home_button")
   });
 
     submitbutton.addEventListener("click", function() {
+        console.log(url_link.slice(0,8))
+        console.log(url_link.slice(0,7))
     url_link= url_input.value
     if(url_link.slice(0,8)!="https://"||url_link.slice(0,7)!="http://"){
         iframe_html.src="http://" + url_link
